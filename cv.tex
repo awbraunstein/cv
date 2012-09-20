@@ -1,132 +1,113 @@
 %!TEX TS-program = xelatex
-\documentclass[]{friggeri-cv}
-\addbibresource{bibliography.bib}
+\documentclass[print]{friggeri-cv}
 
 \begin{document}
-\header{adrien}{friggeri}
-       {social network analyst}
+\header{Andrew}{Braunstein}
+       {Software Engineer}
 
 
 % In the aside, each new line forces a line break
 \begin{aside}
   \section{about}
-    31 rue Smith
-    69002 Lyon
-    France
-    ~
-    \href{mailto:adrien@friggeri.net}{adrien@friggeri.net}
-    \href{http://friggeri.net}{http://friggeri.net}
-    \href{http://facebook.com/adrien}{fb://adrien}
+  34 Belmont Drive West
+  Roslyn Hts., NY 11577
+  ~
+  (516)526-5739
+  ~
+  \href{mailto:awbraunstein@gmail.com}{awbraunstein@gmail.com}
+  \href{http://andrewbraunstein.com}{andrewbraunstein.com}
+  \href{http://github.com/awbraunstein}{github.com/awbraunstein}
   \section{languages}
-    bilingual french/english
-    spanish \& italian notions
-  \section{programming}
-    {\color{red} $\varheartsuit$} JavaScript
-    (ES5, node.js)
-    Python, C, OCaml
-    CSS3 \& HTML5
+  Ruby, Javascript, CoffeeScript, C, Python, Java, C++, Bash
+  \section{frameworks}
+  Rails, Sinatra, Flask, Expressjs, Android
+  \section{tools}
+  Emacs, Eclipse, QtCreator, Visual Studio
 \end{aside}
-
-\section{interests}
-
-complex networks, social networks, community detection, community structure,
-overlapping communities, information diffusion, viral marketing, social
-inference, recommendation, data mining
 
 \section{education}
 
 \begin{entrylist}
   \entry
-    {since 2009}
-    {Ph.D. {\normalfont candidate in Computer Science}}
-    {DNET/INRIA, LIP/ÉNS de Lyon}
-    {\emph{A Quantified Theory of Social Cohesion.}}
-  \entry
-    {2007–2008}
-    {M.Sc. magna cum laude}
-    {IXXI, École Normale Supérieure de Lyon}
-    {Majoring in Computer Science\\
-    Specialization in Complex Systems}
-  \entry
-    {2006–2007}
-    {B.Sc. magna cum laude}
-    {École Normale Supérieure de Lyon}
-    {Majoring in Computer Science}
-  \entry
-    {2003–2006}
-    {Classes Préparatoires aux Grandes Écoles}
-    {Lycée Fénelon, Lycée Louis le Grand, Paris}
-    {Preparation for national competitive entrance exams to leading French ``grandes écoles'', specializing in mathematics and physics.}
-  \entry
-    {2003}
-    {French Baccalauréat S. with honors}
-    {Lycée Louis le Grand, Paris}
-    {Specialization in mathematics and physics}
+    {2009–2012}
+    {University of Pennsylvania}
+    {Philadelphia, PA}
+    {BSE in Computer Science \\
+    Expected Graduation: May 2013}
 \end{entrylist}
 
 \section{experience}
 
 \begin{entrylist}
   \entry
-    {02–07 2009}
-    {LIP6/CNRS, Paris}
-    {Research Internship.}
-    {\emph{Visualization of complex networks.}}
+    {05/12-08/12}
+    {Vistar Media}
+    {Philadelphia PA}
+    {Software Engineer Intern \\
+      \emph{Rewrote serverside form validations, replacing wtforms \\ 
+        Built new clientside visualizations using d3.js }}
   \entry
-    {06–08 2008}
-    {ISCPIF/CNRS, Paris}
-    {Research Internship.}
-    {\emph{Diffusion in the Blogosphere. Happy Flu.}}
+    {09/11-05/12}
+    {University Of Pennsylvania}
+    {Philadelphia, PA}
+    {Teaching Assistant \\
+      \emph{Taught labs for Programming Languages I. \\ 
+        Held office hours and did code reviews.}}
   \entry
-    {06–08 2007}
-    {LIP6/CNRS, Paris}
-    {Research Internship.}
-    {\emph{Kernels in real world networks.}}
-  \entry
-    {07–08 2005}
-    {\href{http://www.kelkoo.com}{Kelkoo.com}}
-    {Summer job.}
-    {\emph{Creation of a keyword generator for Google Adwords.}}
-  \entry
-    {07–08 2004}
-    {\href{http://www.monsieurprix.com}{MonsieurPrix.com}}
-    {Summer job.}
-    {\emph{Development of an e-commerce product indexation spider.}}
+    {06/11–08/11}
+    {Gobbler}
+    {Hollywood, CA}
+    {Software Engineer Intern \\ 
+      \emph{Developed an internal marketing tool in Ruby on Rails. \\ 
+      Built a forum scraper that parses phpBB and vBulletin forums}}
+
 \end{entrylist}
 
-\section{applications}
+\section{projects}
 
 \begin{entrylist}
   \entry
-    {2012}
-    {Who did I forget ?}
-    {\href{http://whodidiforget.com}{whodidiforget.com}}
-    {Guest list recommendation for Facebook events based on friends already attending the event.}
+  {2012}
+  {\href{http://andrewbraunstein.com:3000}{js-compute}}
+  {CoffeeScript, Node.js}
+  {js-compute is a distributed JavaScript cloud-computing platform. \\
+    Using web workers, js-compute can harness the power of the user's
+    browser to compute distributed tasks}
   \entry
-    {2011}
-    {Fellows}
-    {\href{http://fellows-exp.com}{fellows-exp.com}}
-    {Automatic community detection among Facebook Friends in order to validate the \emph{cohesion} measure, creation of friend lists.}
+  {2012}
+  {\href{http://rdtripp.in}{rdtripp.in}}
+  {Javascript, Python}
+  {3rd place (\$1000) out of 42 teams at PennApps 2012 Spring
+    Hackathon \\ 
+    A webapp that finds your facebook friends that live along a
+    route. \\
+    Uses backbone.js, googlemaps API, and mongoDB.}
   \entry
-    {2008}
-    {Happy Flu}
-    {\href{http://happyflu.com}{happyflu.com}}
-    {Experiment aimed to measure viral spreading of content across the blogosphere.}
+  {2011}
+  {\href{http://andrewbraunstein.com/settlethis.html}{Let's Settle This}}
+  {Java, Android}
+  {Android app that allows you to settle petty arguments with
+    friends quickly and easily. \\ 
+    Uses Venmo mobile payment API, Wolfram Alpha search API, and Bump mobile to mobile data transfer API.}
+  \entry
+  {2011}
+  {Wii Conductor}
+  {Java, AppleScript}
+  {Written at TechCrunch’s Disrupt Hackathon 2011, this program allows
+    the user to control the tempo and volume of a song playing in
+    GarageBand by using a Wiimote to conduct the music.}
 \end{entrylist}
 
-\section{publications}
+\section{interests}
 
-
-\printbibsection{article}{article in peer-reviewed journal}
-\begin{refsection}
-  \nocite{*}
-  \printbibliography[sorting=chronological, type=inproceedings, title={international peer-reviewed conferences/proceedings}, notkeyword={france}, heading=subbibliography]
-\end{refsection}
-\begin{refsection}
-  \nocite{*}
-  \printbibliography[sorting=chronological, type=inproceedings, title={local peer-reviewed conferences/proceedings}, keyword={france}, heading=subbibliography]
-\end{refsection}
-\printbibsection{misc}{other publications}
-\printbibsection{report}{research reports}
+\begin{entrylist}
+  \entry
+  {Founder, Emacs club on campus}{}{}{}
+  \entry
+  {Board Member, UPenn Ski and Snowboard Team}{}{}{}
+  \entry
+  {Board Member, Dining Philosophers (UPenn Computer Science Club)}{}{}{}
+  
+\end{entrylist}
 
 \end{document}
